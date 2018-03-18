@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { browser } from 'protractor';
+import { DataService } from './data.service';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { browser } from 'protractor';
     FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
