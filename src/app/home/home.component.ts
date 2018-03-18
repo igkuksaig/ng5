@@ -30,9 +30,9 @@ trigger('goals', [
 })
 
 export class HomeComponent implements OnInit {
-  itemCount: number = 4;
-  btnText: string = 'Add an item';
-  goalText: string = 'My first life goal';
+  itemCount = 4;
+  btnText = 'Add an item';
+  goalText = 'My first life goal';
   goals = [];
 
   constructor() { }
